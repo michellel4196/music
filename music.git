@@ -1,0 +1,36 @@
+michellel4196:~/workspace/music/hip-hop/west-coast $ cd ../..
+michellel4196:~/workspace/music $ cd rap
+michellel4196:~/workspace/music/rap $ touch eminem.txt jay-z.txt notorious-big.txt
+michellel4196:~/workspace/music/rap $ cd ../rock
+michellel4196:~/workspace/music/rock $ touch blink-182.txt nirvana.txt
+michellel4196:~/workspace/music/rock $ clear
+michellel4196:~/workspace/music/country $ cd../hip-hop
+bash: cd../hip-hop: No such file or directory
+michellel4196:~/workspace/music/country $ cd..
+bash: cd..: command not found
+michellel4196:~/workspace/music/country $ cd ../hip-hop
+michellel4196:~/workspace/music/hip-hop $ mkdir east-coast west-coast
+michellel4196:~/workspace/music/hip-hop $ cd east-coast/
+michellel4196:~/workspace/music/hip-hop/east-coast $ touch public-enemy.txt grandmaster-flash.txt
+michellel4196:~/workspace/music/hip-hop/east-coast $ cd ..
+michellel4196:~/workspace/music/hip-hop $ cd west-coast/
+michellel4196:~/workspace/music/hip-hop/west-coast $ touch dr-dre.txt ice-cube.txt
+michellel4196:~/workspace/music/hip-hop/west-coast $ cd ../..
+michellel4196:~/workspace/music $ cd rap
+michellel4196:~/workspace/music/rap $ touch eminem.txt jay-z.txt notorious-big.txt
+michellel4196:~/workspace/music/rap $ cd ../rock
+michellel4196:~/workspace/music/rock $ touch blink-182.txt nirvana.txt
+michellel4196:~/workspace/music/rock $ clear
+michellel4196:~/workspace/music/rock $ cd ..
+michellel4196:~/workspace/music $ mv rock punk-rock
+michellel4196:~/workspace/music $ cd punk-rock/
+michellel4196:~/workspace/music/punk-rock $ rm nirvana.txt 
+michellel4196:~/workspace/music/punk-rock $ cd ../rap
+michellel4196:~/workspace/music/rap $ mkdir alive
+michellel4196:~/workspace/music/rap $ mv eminem.txt alive
+michellel4196:~/workspace/music/rap $ mv jay-z.txt alive/
+michellel4196:~/workspace/music/rap $ mkdir dead
+michellel4196:~/workspace/music/rap $ mv notorious-big.txt notorious-b-i-g.txt
+michellel4196:~/workspace/music/rap $ mv notorious-b-i-g.txt dead/
+michellel4196:~/workspace/music/rap $ cd ..
+michellel4196:~/workspace/music $ rm -rf hip-hop/
